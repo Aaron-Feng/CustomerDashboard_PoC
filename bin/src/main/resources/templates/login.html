@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>insert title here</title>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<link
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+	crossorigin="anonymous">
+<script
+	src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+	integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+	crossorigin="anonymous"></script>
+
+</head>
+<body>
+<form th:action="@{/registration}" method="get">
+    <button class="btn btn-md btn-warning btn-block" type="Submit">Go To Registration Page</button>
+</form>
+<div class="container">
+    <form th:action="@{/login}" method="POST" class="form-signin">
+        <h3 class="form-signin-heading" th:text="Welcome"></h3>
+        <br/>
+
+        <input type="text" id="username" name="username"
+               class="form-control"/> <br/>
+        <input type="password" 
+               id="password" name="password" class="form-control"/> <br/>
+
+        <div th:if="${param.error}" class="alert alert-error">Invalid username and password.</div>
+        <button class="btn btn-lg btn-primary btn-block" name="Submit" value="Login" type="Submit"
+                th:text="Login"></button>
+    </form>
+</div>
+</body>
+</html>

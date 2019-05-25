@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Product List</title>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<link
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+	crossorigin="anonymous">
+<script
+	src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+	integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+	crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<div class="container">
+	<a href="/product/new" class="btn btn-success">New Product</a>
+		<div th:if="${not #lists.isEmpty(products)}">
+			<h2>Product List</h2>
+			<table class="table table-striped">
+				<tr>
+					<th>ID</th>
+					<th>Name</th>
+					<th>Price</th>
+					<th>Description</th>
+					<th>Detail</th>
+					<th>Edit</th>
+					<th>Delete</th>
+				</tr>
+				<tr th:each="product : ${products}">
+					<td th:text="${product.id}"></td>
+					<td th:text="${product.name}"></td>
+					<td th:text="${product.price}"></td>
+					<td th:text="${product.description}"></td>
+					<td><a th:href="${'/product/productShow/'+product.id}">Detail</a></td>
+					<td><a th:href="${'/product/editProduct/'+product.id}"><img src="/images/edit.png" /></a></td>
+					<td><a th:href="${'/product/deleteProduct/'+product.id}"><img src="/images/delete.png" /></a></td>
+					
+				</tr>
+			</table>
+		</div>
+	</div>
+
+</body>
+</html>
