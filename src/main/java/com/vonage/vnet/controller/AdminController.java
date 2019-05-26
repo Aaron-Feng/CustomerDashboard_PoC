@@ -18,20 +18,7 @@ import org.springframework.web.bind.ServletRequestDataBinder;
 import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.subaru.snet.csf.auth.domain.SNETUserContext;
-import com.subaru.snet.dpt.domain.AdminComponentTemplate;
-import com.subaru.snet.dpt.domain.AdminComponentType;
-import com.subaru.snet.dpt.domain.AdminExhibitTemplate;
-import com.subaru.snet.dpt.domain.AdminPackageSetTemplate;
-import com.subaru.snet.dpt.domain.AdminPackageTemplate;
-import com.subaru.snet.dpt.domain.AdminTemplate;
-import com.subaru.snet.dpt.entity.Component;
-import com.subaru.snet.dpt.entity.Exhibit;
-import com.subaru.snet.dpt.entity.Package;
-import com.subaru.snet.dpt.entity.PackageSet;
-import com.subaru.snet.dpt.service.AdminService;
-import com.subaru.snet.dpt.service.ExhibitService;
-import com.subaru.snet.dpt.service.PackageService;
+
 
 /**
  * AdminController class contains methods that are responsible for retrieval of data for admin functionality and handles the switching between tabs.

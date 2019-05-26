@@ -6,7 +6,6 @@ import org.hibernate.validator.constraints.NotBlank;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-import com.subaru.snet.dpt.domain.GenericForm;
 
 @Component("memo")
 @Scope("prototype")

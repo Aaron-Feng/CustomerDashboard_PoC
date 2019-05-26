@@ -11,9 +11,6 @@ import org.springframework.web.bind.ServletRequestDataBinder;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.subaru.snet.csf.util.CSFBeanUtils;
-import com.subaru.snet.dpt.domain.GenericForm;
-import com.subaru.snet.dpt.service.GenericFormService;
 
 /**
  * Controller class responsible for handling data submission pertaining to

@@ -13,12 +13,6 @@ import java.util.TreeMap;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.subaru.snet.dpt.domain.AddressType;
-import com.subaru.snet.dpt.domain.LookupType;
-import com.subaru.snet.dpt.entity.Lookup;
-import com.subaru.snet.dpt.entity.SnetDMSTypeView;
-import com.subaru.snet.dpt.repository.dpt.LookupRepository;
-import com.subaru.snet.dpt.repository.dpt.SnetDMSTypeRepository;
 
 /**
  * This is the service class consisting methods for fetching data from database related to Lookup data.

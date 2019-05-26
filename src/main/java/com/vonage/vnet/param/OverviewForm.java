@@ -2,7 +2,6 @@ package com.vonage.vnet.param;
 
 import org.springframework.stereotype.Component;
 
-import com.subaru.snet.dpt.domain.GenericForm;
 
 @Component("overview")
 public class OverviewForm extends GenericForm {

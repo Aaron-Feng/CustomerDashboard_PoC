@@ -10,10 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-import com.subaru.snet.csf.annotation.IgnoreField;
-import com.subaru.snet.dpt.domain.GenericForm;
-import com.subaru.snet.dpt.domain.LookupType;
-import com.subaru.snet.dpt.service.LookupService;
 
 /**
  * Form bean class for Personal References Component.

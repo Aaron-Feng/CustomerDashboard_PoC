@@ -6,7 +6,7 @@ import org.hibernate.validator.constraints.NotBlank;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-import com.subaru.snet.dpt.domain.GenericForm;
+
 
 /**
  * Form bean class for Personnel Addendum Component.

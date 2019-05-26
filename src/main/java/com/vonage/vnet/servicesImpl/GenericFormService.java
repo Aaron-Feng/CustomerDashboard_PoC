@@ -15,12 +15,6 @@ import org.springframework.beans.factory.BeanFactoryAware;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.subaru.snet.csf.auth.domain.SNETUserContext;
-import com.subaru.snet.csf.util.CSFBeanUtils;
-import com.subaru.snet.dpt.domain.GenericForm;
-import com.subaru.snet.dpt.entity.ComponentRequestAttribute;
-import com.subaru.snet.dpt.repository.dpt.ComponentRequestAttributeRepository;
-import com.subaru.snet.dpt.repository.dpt.ComponentRequestRepository;
 
 /**
  * This is the service class consisting methods for populating and saving data

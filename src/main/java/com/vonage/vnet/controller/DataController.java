@@ -9,15 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.subaru.snet.dpt.domain.LookupType;
-import com.subaru.snet.dpt.entity.Component;
-import com.subaru.snet.dpt.entity.Exhibit;
-import com.subaru.snet.dpt.entity.Package;
-import com.subaru.snet.dpt.entity.PackageSet;
-import com.subaru.snet.dpt.service.AdminService;
-import com.subaru.snet.dpt.service.DDMSService;
-import com.subaru.snet.dpt.service.DashboardService;
-import com.subaru.snet.dpt.service.LookupService;
+
 
 /**
  * DataController class contains methods for retrieval of data from asynchronous operations across the application.

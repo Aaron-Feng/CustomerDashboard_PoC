@@ -16,7 +16,7 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
-import com.subaru.snet.csf.domain.converter.BooleanToYNStringConverter;
+import com.csf.converter.BooleanToYNStringConverter;
 
 /**
  * Entity class for DPT_LOOKUP table.

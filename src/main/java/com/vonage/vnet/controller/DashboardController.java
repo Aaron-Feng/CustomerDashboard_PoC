@@ -14,13 +14,6 @@ import org.springframework.web.bind.ServletRequestDataBinder;
 import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.subaru.snet.csf.auth.domain.SNETUserContext;
-import com.subaru.snet.dpt.domain.LookupType;
-import com.subaru.snet.dpt.domain.PackageStatusType;
-import com.subaru.snet.dpt.domain.PackageTemplate;
-import com.subaru.snet.dpt.entity.PackageRequest;
-import com.subaru.snet.dpt.service.DashboardService;
-import com.subaru.snet.dpt.service.LookupService;
 
 /**
  * DashboardController class contains methods for handling operations related to Package Dashboard screen.

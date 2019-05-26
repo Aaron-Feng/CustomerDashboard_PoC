@@ -17,7 +17,6 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
-import com.subaru.snet.csf.domain.converter.BooleanToYNStringConverter;
 
 /**
  * Entity class for DPT_COMPONENT_REQ table.

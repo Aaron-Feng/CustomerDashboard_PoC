@@ -23,12 +23,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.subaru.snet.dpt.domain.Attachment;
-import com.subaru.snet.dpt.domain.AttachmentType;
-import com.subaru.snet.dpt.domain.TransactionData;
-import com.subaru.snet.dpt.domain.form.UploadForm;
-import com.subaru.snet.dpt.service.DocumentManagementService;
-import com.subaru.snet.dpt.service.DocumentServicesService;
+
 
 @Controller
 public class DocumentController {

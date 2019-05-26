@@ -3,7 +3,6 @@ package com.vonage.vnet.converter;
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;
 
-import com.subaru.snet.dpt.domain.ExhibitStatusType;
 
 /*
  * This class is necessary to convert uppercase enumerations to proper lowercase database values

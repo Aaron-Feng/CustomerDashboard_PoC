@@ -8,12 +8,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.subaru.snet.csf.auth.domain.SNETUserContext;
-import com.subaru.snet.dpt.domain.form.MemoForm;
-import com.subaru.snet.dpt.entity.Memo;
-import com.subaru.snet.dpt.repository.dpt.ExhibitRequestRepository;
-import com.subaru.snet.dpt.repository.dpt.MemoRepository;
-import com.subaru.snet.dpt.repository.dpt.PackageRequestRepository;
+
 
 /**
  * MemoService class contains methods for handling operations related to Memo functionality.
